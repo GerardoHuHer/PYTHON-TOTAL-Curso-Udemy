@@ -1,0 +1,5 @@
+name = input("Ingrese su nombre: ")
+sell = float(input("Ingrese la cantidad de ventas que realizo en dinero: "))
+ventas_comisiones = sell + (sell * 0.13)
+ventas_comisiones = round(ventas_comisiones, 2)
+print(f"El trabajador {name}, vendio {sell} y por lo tanto recibirá {ventas_comisiones} sumando su salario con sus comisiones")
